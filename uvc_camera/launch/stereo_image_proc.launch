@@ -20,11 +20,11 @@
   </node>
 
   <node name="stereo_image_proc" pkg="stereo_image_proc" type="stereo_image_proc" output="screen"  >
-    <param name="queue_size" value="2000" />
     <param name="approximate_sync" value="True" />
     <param name="min_disparity" value="-128" />
     <param name="disparity_range" value="128" />
     <param name="speckle_size" value="1000" />
+    <param name="uniqueness_ratio" value="0" />
   </node>
 
 </group>
